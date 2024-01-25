@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div id="container">
@@ -14,12 +14,13 @@
       <div></div>
       <div></div>
       <form action="">
-        <input type="email" name="" id="email" />
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" />
       </form>
       <div></div>
       <div></div>
-      <div><button id="gomb">Beküld</button></div>
-      <div></div>
+      <div><button id="gomb">Ellenőrzés</button></div>
+      <div id="results">jó az email</div>
     </div>
   </body>
 </html>
