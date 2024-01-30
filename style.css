@@ -6,3 +6,10 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
+
+.valid {
+  background-color: rgb(86, 143, 0);
+}
+.invalid {
+  background-color: rgb(155, 75, 75);
+}
